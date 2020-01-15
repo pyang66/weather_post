@@ -1,0 +1,6 @@
+name: 'GitHub Actions Weather Post'
+
+on:
+  push:
+  schedule:
+    - cron: '0 21 * * *'
